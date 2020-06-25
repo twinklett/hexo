@@ -1,8 +1,10 @@
 ---
 title: next开启服务报错
 date: 2020-06-25 13:01:22
-categories:- 笔记
-tags:- 学习
+categories:
+- 笔记
+tags:
+- 学习
 - 代码
 ---
 今天给NEXT主题新添加分享和CND加速功能，修改主题配置文件之后开启本地预览服务后报错：

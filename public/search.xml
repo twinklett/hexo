@@ -226,4 +226,21 @@ hexo s</code></pre>
         <tag>毕业季</tag>
       </tags>
   </entry>
+  <entry>
+    <title>next开启服务报错</title>
+    <url>/2020/06/25/next%E5%BC%80%E5%90%AF%E6%9C%8D%E5%8A%A1%E6%8A%A5%E9%94%99/</url>
+    <content><![CDATA[<p>今天给NEXT主题新添加分享和CND加速功能，修改主题配置文件之后开启本地预览服务后报错：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Unhandled rejection Error: ENOENT: no such file or directory, open <span class="string">'C:\github\blog\themes\next\layout\_scripts\schemes\.swig'</span></span><br><span class="line">    at Error (native)</span><br><span class="line">    at Object.fs.openSync (fs.js:584:18)</span><br><span class="line">    at Object.fs.readFileSync (fs.js:431:33)</span><br><span class="line">    at Object.ret.load (C:\github\blog\node_modules\swig\lib\loaders\filesystem.js:55:15)</span><br><span class="line">    at compileFile (C:\github\blog\node_modules\swig\lib\swig.js:695:31)</span><br><span class="line">    at Object.eval [as tpl] (<span class="built_in">eval</span> at &lt;anonymous&gt; (C:\github\blog\node_modules\swig\lib\swig.js:498:13), &lt;anonymous&gt;:293:18)</span><br><span class="line">    at compiled [as _compiledSync] (C:\github\blog\node_modules\swig\lib\swig.js:619:18)</span><br><span class="line">    at tryCatcher (C:\github\blog\node_modules\bluebird\js\release\util.js:16:23)</span><br><span class="line">    at null._compiled (C:\github\blog\node_modules\bluebird\js\release\method.js:15:34)</span><br><span class="line">    at View.render (C:\github\blog\node_modules\hexo\lib\theme\view.js:29:15)</span><br><span class="line">    at C:\github\blog\node_modules\hexo\lib\hexo\index.js:387:25</span><br><span class="line">    at tryCatcher (C:\github\blog\node_modules\bluebird\js\release\util.js:16:23)</span><br><span class="line">    at C:\github\blog\node_modules\bluebird\js\release\method.js:15:34</span><br><span class="line">    at RouteStream._read (C:\github\blog\node_modules\hexo\lib\hexo\router.js:134:3)</span><br><span class="line">    at RouteStream.Readable.read (_stream_readable.js:336:10)</span><br><span class="line">    at resume_ (_stream_readable.js:726:12)</span><br><span class="line">    at _combinedTickCallback (node.js:383:13)</span><br><span class="line">    at process._tickCallback (node.js:407:11)</span><br></pre></td></tr></table></figure>
+<p>谷歌大法之后几乎所有的解决方法都是主题config文件语法错误，遂使用YAML在线解析工具进行语法查错：</p>
+<figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">https:<span class="regexp">//</span>www.bejson.com<span class="regexp">/validators/y</span>aml_editor<span class="regexp">/</span></span><br></pre></td></tr></table></figure>
+<p>根据提示一一将空格加好后问题解决。</p>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>学习</tag>
+        <tag>代码</tag>
+      </tags>
+  </entry>
 </search>
