@@ -643,8 +643,7 @@ note:
 # Label tag.
 label: true
 
-#lazyload
-lazycache: true
+
 # Tabs tag.
 tabs:
   enable: true
