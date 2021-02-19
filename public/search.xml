@@ -378,4 +378,38 @@ hexo s</code></pre>
         <tag>随笔</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Google Voice详尽教程</title>
+    <url>/2021/02/19/Google-Voice%E8%AF%A6%E5%B0%BD%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<p>本文是对google voice的转移和使用加以说明，购买google voice请自寻渠道。</p>
+<h1 id="Google-voice-是什么？"><a href="#Google-voice-是什么？" class="headerlink" title="Google voice 是什么？"></a>Google voice 是什么？</h1><p>Google Voice 是由 Google 推出的 VOIP 服务。简单来说，你可以获得一个虚拟美国号码，可以接听其他绑定的实体美国号码，也可以单独使用这个号码拨打电话，接收短信等；拨打美国号码免费，其他地区费率也极低。</p>
+<h1 id="Google-voice-的功能有哪些"><a href="#Google-voice-的功能有哪些" class="headerlink" title="Google voice 的功能有哪些"></a>Google voice 的功能有哪些</h1><p>Google Voice语音信箱使用起来就像电子邮件一样，把语音信箱的内容传译成文字，使你可以阅读，并能定制问候。 美国/加拿大电话短信均免费，并提供非常便宜地打国际长途电话。 收到留言后会发电子邮件或短信通知你，可以下载分享留言。 使用一个号码管理你所有的电话号码。 拦截你不想接听的电话，让它直接进语音信箱。 可以在线录音及保存通话。</p>
+<h1 id="Google-的用途有哪些？"><a href="#Google-的用途有哪些？" class="headerlink" title="Google 的用途有哪些？"></a>Google 的用途有哪些？</h1><ul>
+<li>可免费拔打美国或者加拿大几乎所有的电话 </li>
+<li>注册国内各种小号(但不是所有的都可以，只有支持国外手机号注册的网站和论坛才行)，用于收验证码，免于用自已的真实手机号。 </li>
+<li>不暴露Apple手机iPhone的机主真实身份。你第一次激活绑定用的手机号码就能查到你是谁。 </li>
+<li>验证Facebook、推特、Whatapp、注册美国版PayPal，用于电话验证，并接收二次验证码。</li>
+<li>注册美国亚马逊，用于电话验证，并接收二次验证码。 </li>
+<li>注册电报Telegram，telegram目前所有中国手机号码注册的用户都被限制，可以参与群聊，但是不能主动私聊别人。用GV号码注册或者换绑为GV号码可以解除这个限制。默认情况下中国手机号码注册的Telegram发消息会提示“you can only send messages to mutual contacts”。 </li>
+<li>换绑定微信，成为微信号。(不能用于直接第一次注册微信号，用虚拟号码注册的微信号会被秒封。但Google Voice号本身不受影响。） 使用GV可以注册美区Netflix</li>
+</ul>
+<h1 id="Google-Voice-转移教程"><a href="#Google-Voice-转移教程" class="headerlink" title="Google Voice 转移教程"></a>Google Voice 转移教程</h1><blockquote>
+<p>以上为介绍内容，当你以某些渠道得到了google voice和与之对应的邮箱密码，并且想将其转移至自己的google账号名下，那么请继续往下看。</p>
+</blockquote>
+<p>GV转移之前请你确定满足以下几个条件：</p>
+<ol>
+<li>科学上网美国环境</li>
+<li>希望转出的带GV号码的谷歌账户</li>
+<li>希望转入的不带任何GV号码的谷歌账户</li>
+<li>最好再PC操作</li>
+</ol>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>google voice</tag>
+        <tag>FQ</tag>
+      </tags>
+  </entry>
 </search>
